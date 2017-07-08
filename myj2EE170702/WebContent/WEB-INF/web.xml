@@ -8,11 +8,11 @@
   </welcome-file-list>
   <context-param>
     <param-name>upload-path</param-name>
-    <param-value>C:\Users\Mac\git1\myJ2EE\WebContent\upload</param-value>
+    <param-value>C:\Users\Mac\git01\myj2EE170702\WebContent\upload</param-value>
   </context-param>
   <context-param>
     <description>畫面樣板區</description>
     <param-name>template-path</param-name>
-    <param-value>C:\Users\Mac\git1\myJ2EE\WebContent\template</param-value>
+    <param-value>C:\Users\Mac\git01\myj2EE170702\WebContent\template</param-value>
   </context-param>
 </web-app>
