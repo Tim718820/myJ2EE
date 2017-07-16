@@ -37,7 +37,7 @@
 </head>
 <body>
 
-<form>
+<form action="UpdateData">
 	<input type="hidden" name="id" value="${result.rows[0].id}" />
 	Account:<input type="text" name="account" value="${result.rows[0].account}"/><br>
 	Password:<input type="password" name="passwd" value="${result.rows[0].passwd}" /><br>
