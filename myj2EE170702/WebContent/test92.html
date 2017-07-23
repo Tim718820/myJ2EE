@@ -1,0 +1,16 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$.ajaxSetup({ cache: false });
+function requestMesg(){
+	$.get("test57", function(data, status){
+		$("#mesg").html(data);
+		requestMesg();
+	});
+}
+requestMesg();
+</script>
+<h1>My Big Company</h1>
+<hr>
+<div id="mesg"></div>
+<hr>
+Hello, World
